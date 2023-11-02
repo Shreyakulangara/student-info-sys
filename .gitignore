@@ -1,0 +1,42 @@
+# Ignore virtual environment folders
+venv/
+student_env/
+
+# Ignore Python byte-compiled files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Ignore database files
+db.sqlite3
+
+# Ignore Django collected static files
+staticfiles/
+
+# Ignore Node.js modules and build artifacts
+node_modules/
+build/
+dist/
+
+# Ignore React development server log
+npm-debug.log*
+
+# Ignore React.js production build artifacts
+build/
+
+/.pnp
+.pnp.js
+
+# testing
+/coverage
+
+# misc
+.DS_Store
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+yarn-debug.log*
+yarn-error.log*
