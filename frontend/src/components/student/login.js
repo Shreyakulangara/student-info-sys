@@ -55,20 +55,22 @@ function Login({ onLoginSuccess }) {
     position: "relative",
   };
   const cardStyle ={
-    
     position: "absolute",
     top: '50%',
     left: '50%',
     transform: 'translate(-50%, -50%)',
-
+    width:'70%',
+    height: '70%',
+    display: "flex",
+    justifyContent: "center",
   };
   return (
     <div  style={loginStyle} >
       <Card style={cardStyle}>
-      <Row>
+      <Row className='text-center'>
         <div className="col-md-4 offset-md-4">
-          <div className="login-form">
-            <h2>Login</h2>
+          <div className="login-form ">
+            <h2>Student Login</h2>
             <form>
               <div className="form-group">
                 <input
@@ -80,7 +82,8 @@ function Login({ onLoginSuccess }) {
                   onChange={(e) => setUsername(e.target.value)}
                 />
               </div>
-              <div className="form-group">
+
+              <div className="form-group mt-2">
                 <input
                   type="password"
                   name="password"
@@ -90,7 +93,7 @@ function Login({ onLoginSuccess }) {
                   onChange={(e) => setPassword(e.target.value)}
                 />
               </div>
-              <Button variant="outline-light" onClick={handleLogin}>Login</Button>
+              <Button variant="primary" className="mt-2"onClick={handleLogin}>Login</Button>
             </form>
           </div>
         </div>
