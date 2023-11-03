@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
-import Container from 'react-bootstrap/Container';
+// import Container from 'react-bootstrap/Container';
 import Button from 'react-bootstrap/Button';
 import Card from 'react-bootstrap/Card';
 import Row from 'react-bootstrap/Row';
@@ -47,7 +47,7 @@ function Login({ onLoginSuccess }) {
       });
   };
   const loginStyle = {
-    backgroundColor: '#d8c8b8',
+    backgroundColor: '#4f8fc0',
     height:'100%',
     margin: 0,
     padding: 0,

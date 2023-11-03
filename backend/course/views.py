@@ -7,7 +7,7 @@ from .serializers import CourseSerializer
 
 # Create your views here.
 @api_view(['GET'])
-def student_list(request):
+def course_list(request):
     """
     List all courses in db.
     """

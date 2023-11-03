@@ -21,7 +21,7 @@ function StudentList() {
   }, []);
 
   return (
-    <div className="container-fluid p0">
+    <div className="container-fluid p0 my-3 mx-2 p-3">
       {students.length > 0 ? (
       <Card>
         <Row>
@@ -35,7 +35,6 @@ function StudentList() {
                   Some quick example text to build on the card title and make up the
                   bulk of the card's content.
                 </Card.Text>
-                {/* <Button variant="primary">Go somewhere</Button> */}
             </Card.Body>
           </Col>
         </Row>
