@@ -38,6 +38,7 @@ urlpatterns = [
     path('course/',include('course.urls')),
     path('enrollment/',include('enrollment.urls')),
     path('grade/',include('grade.urls')),
+    path('events/',include('events.urls')),
     path('swagger/', schema_view.with_ui('swagger', cache_timeout=0),
          name='schema-swagger-ui'),
 ]
